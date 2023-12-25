@@ -1,0 +1,66 @@
+.app{
+  text-align: center;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+
+@media (prefers-color-scheme: dark){
+  .app{
+  --color-background: white;
+  color: black;
+  text-align: center;
+  box-sizing: border-box;
+  }
+
+}
+
+.footer{
+  background-color: #717C7D;
+  margin-top: 2%;
+  display: block;
+}
+
+.icons{
+  margin-left: 4%;
+}
+
+.iconbox{
+  padding-right: 2%;
+}
+
+.icons:hover{
+  background-color: #0a59f7;
+}
+
+.info>img{
+  width: 30%;
+  transition: width 2s, heigth 2s, transform 2s;
+}
+
+.info{
+  margin-top: 2%;
+}
+
+.interests{
+  margin-top: 2%;
+}
+
+.about {
+  color: #F1F2F4;
+  margin-top: 5%;
+}
+
+.business-card:hover{
+  box-shadow: 12px 12px 12px 12px rgba(240, 240, 243, 0.2);
+  transition-property: box-shadow;
+  transition-duration: 1s;
+
+}
+
+.business-card{
+  width: 60%;
+}
+
+/* Light Mode Styles */
+
